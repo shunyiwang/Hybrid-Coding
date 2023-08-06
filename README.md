@@ -41,7 +41,7 @@ a. nfd-start
 b. ./encode/encode
 c. ./upload/consumer
 d. ./upload/producer
-d. ./decode/decode
+e. ./decode/decode
 ```
 
 
