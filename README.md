@@ -30,7 +30,7 @@ sudo cp /usr/local/etc/ndn/nfd.conf.sample /usr/local/etc/ndn/nfd.conf
 - Complie consumer producer etc.
 ```
 ./encode/encode.sh # Divide the original file into original blocks and encodes them into encoded blocks.
-./upload/compile_ep.sh # CP uploads all encoded blocks to the server; User downloads the required encoded blocks from the ICN network. 
+./upload/Src/compile_ep.sh # CP uploads all encoded blocks to the server; User downloads the required encoded blocks from the ICN network. 
 ./decode/decode.sh # Decodes the original content according to the decoding information, and performs an integrity check through MD5.
 ```
 
@@ -39,8 +39,8 @@ sudo cp /usr/local/etc/ndn/nfd.conf.sample /usr/local/etc/ndn/nfd.conf
 ```
 a. nfd-start
 b. ./encode/encode
-c. ./upload/consumer
-d. ./upload/producer
+c. ./upload/Src/consumer
+d. ./upload/Src/producer
 e. ./decode/decode
 ```
 
